@@ -1,0 +1,131 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.about-me-pic{
+    width: 75%;
+}
+
+.main-image{
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}
+
+.main-description{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+.main-panel{
+    padding: 3%;
+    background-color: #fff;
+    border: 1px solid transparent;
+    width: 75%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+}
+
+.main-container{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.portfolio-img{
+    align-self: flex-start;
+    width: 31%;
+    margin: 1%;
+}
+
+.contact-content{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.name{
+   text-transform: uppercase;
+}
+
+.job-desrciption{
+    opacity: 0.7;
+}
+
+.row{
+    margin: 0 -15px 0 -15px;
+}
+
+p{
+    opacity: 0.7;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+hr{
+    opacity: 0.3;
+    color: #d6d6d6;
+    margin-bottom:3%;
+    margin-top: 2%;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 800;
+    margin-bottom: 4%;
+}
+
+h3{
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 800;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #f7f7f7;
+    height: 2vh;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2%;
+    text-align: center;
+}
+
+.topnav a {
+    display: inline-block;
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    width: 18%;
+  }
+
+.topnav a:hover {
+    color: #4FB29D;
+}
+
+.topnav a.active {
+   color: #207563;
+}
+
+.fa{
+    font-size: 35px !important;
+}

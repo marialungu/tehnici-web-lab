@@ -1,0 +1,33 @@
+@keyframes background-change {
+    0%   {background-color: #B23956;}
+    20%  {background-color: #FF90AB;}
+    40%  {background-color: #FFFA85;}
+    80% {background-color: #BDEBE1;}
+    100% {background-color: #4FB29D;}
+}
+
+@-webkit-keyframes background-change {
+    0%   {background-color: #B23956;}
+    20%  {background-color: #FF90AB;}
+    40%  {background-color: #FFFA85;}
+    80% {background-color: #BDEBE1;}
+    100% {background-color: #4FB29D;}
+}
+
+body{
+    background-color: #B23956;
+    animation-name: background-change;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: background-change;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+/* colors 
+#FF90AB; -> main 
+#B23956 -> dark
+#FFFA85 -> accent
+#BDEBE1 -> compl1
+#4FB29D -> compl2
+*/
